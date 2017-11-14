@@ -22,7 +22,7 @@ __WARNING__: It is possible that you may become locked out if there are issues d
 1) Clone google-authenticator-libpam repo.
 `git clone https://github.com/google/google-authenticator-libpam.git`
 
-2) Build and install. `./bootstrap.sh && ./configure && make && sudo make install`
+2) Build and install. `./bootstrap.sh && ./configure --prefix=/usr && make && sudo make install`
 
 3) Add `ChallengeResponseAuthentication yes` to `/etc/ssh/sshd_config`
 
