@@ -24,9 +24,11 @@ __WARNING__: It is possible that you may become locked out if there are issues d
 
 2) Build and install. `./bootstrap.sh && ./configure --prefix=/usr && make && sudo make install`
 
-3) Add `ChallengeResponseAuthentication yes` to `/etc/ssh/sshd_config`
+3) Run `google-authenticator` and follow the setup instructions.
 
-4) Add `auth      required  pam_google_authenticator.so` to `/etc/pam.d/sshd`
+4) Add `ChallengeResponseAuthentication yes` to `/etc/ssh/sshd_config`
+
+5) Add `auth      required  pam_google_authenticator.so` to `/etc/pam.d/sshd`
 
 
 
