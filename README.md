@@ -1,7 +1,7 @@
 # Google-Authenticator-2FA-Notes
 Notes for setting up Google Authenticator
 
-[![VIDEO ](https://img.youtube.com/vi/IY-9FC_4SBM/0.jpg)](https://youtu.be/IY-9FC_4SBM)
+[!(https://youtu.be/IY-9FC_4SBM)]
 
 
 # Prerequisites
